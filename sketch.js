@@ -330,12 +330,12 @@ function tela3(){
   background(160);
   image(fundofoto,45,20,390,310);
    fill('black');
-    text("- Para jogar a primeira fase, movimente a bolinha preta com o teclado para colidir com o objeto móvel, fazendo-o atingir o campo da resposta correta à pergunta e pontuando.O seu objetivo é atingir 100 pontos para passar para a próxima fase",10,20,240,80);
-  text("- Na segunda fase, arraste com o mouse para o espaço no centro do país apenas as figuras que correspondem à resposta correta.",10,100,240,70);
+    text("- Para jogar a primeira fase, movimente a bolinha preta com o teclado para colidir com o objeto móvel, fazendo-o atingir o campo da resposta correta à pergunta e pontuando. O campo das respostas corresponde aos cantos da tela, cada qual contendo uma figura que representa um povo diferente e apenas uma das figuras corresponde à resposta correta. O seu objetivo é atingir ou ultrapassar 100 pontos, liberando o botão para acessar a próxima fase.",10,20,240,130);
+  text("- Na segunda fase, arraste com o mouse para o espaço no centro do país apenas as figuras que correspondem à resposta correta. As figuras que não correspondem não irão encaixar no espaço, retornando ao ponto inicial. Nesta fase, há mais de uma figura como resposta.",10,150,240,80);
     
   fill('white');
   noStroke();
-  text("Conteúdo:(EF03HI07) História 3º ano - Identifica, através de um jogo espacial interativo, os povos e/ou as raças que compõem o povo brasileiro, segundo a cronologia referente a antes e depois da colonização, levando o aluno a refletir sobre o ambiente que hoje o cerca e sobre o seu pertencimento.",115,177,250);
+  text("Conteúdo:(EF03HI07) História 3º ano - Identifica, através de um jogo espacial interativo, os povos e/ou as raças que compõem o povo brasileiro, segundo a cronologia referente a antes e depois da colonização, levando o aluno a refletir sobre o ambiente que hoje o cerca e sobre o seu pertencimento.",115,230,250);
    
     if(mouseX > xMenu+225 && mouseX < xMenu+225+largura-50 && mouseY > yMenu3+30 && mouseY < yMenu3+20+altura){
     stroke(200);
@@ -502,4 +502,4 @@ function tela6(){
 }
 //https://editor.p5js.org/willyreltimi/sketches/MIBjo//3-4r
 //https://youtu.be/8M05147lqd4  - video trailer do jogo
-//
+//https://youtu.be/LShQ4Wp4K-w - video explicativo
